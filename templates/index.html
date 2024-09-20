@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./static/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts Link For Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar">
+      <div class="container">
+        <h2 class="logo">PORTFOLIO</h2>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+      <div class="content">
+        <h1>Hello, I'm <br><span class="name">Lokesh Sinha N</span></h1>
+        <h3>Python Developer</h3>
+        <p class="description">AI/ML Developer and NLP Enthusiast</p>
+        <a href="#projects" class="btn">View My Work</a>
+      </div>
+      <img src="https://avatars.githubusercontent.com/u/105440729?v=4" alt="Profile" class="profile-pic">
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <h2>About Me</h2>
+        <p>Hello, I'm Lokesh Sinha N, a recent graduate from UCEN JNTUK, In the field of Computer Science and Engineering, Python programmer</p>
+        <p>Eager to see myself as Problem solver from various technical and modern problems using Technology, Enthusiast Tech-learner, <br>Believes in Integrating AI everywhere for more reliable usage of Applications and Technology</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+      <h2>Skills</h2>
+      <div class="skill-grid">
+        <div class="skill-box">
+          <i class="fab fa-python"></i>
+          <h3>Python</h3>
+        </div>
+        <div class="skill-box">
+          <i class="fas fa-robot"></i>
+          <h3>Machine Learning</h3>
+        </div>
+        <div class="skill-box">
+          <i class="fas fa-pen"></i>
+          <h3>Generative AI</h3>
+        </div>
+        <div class="skill-box">
+          <i class="fas fa-flask"></i>
+          <h3>Flask</h3>
+        </div>
+        <div class="skill-box">
+          <i class="fas fa-server"></i>
+          <h3>Django</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+      <h2>My Work</h2>
+      <div class="project-card">
+        <h3>RAG Pipeline- Chat your PDF</h3>
+        <p>A Generative AI project, which prioritize the RAG pipeline, adapting the Google's gemini-1.5-flash model, which enables the Q&A with the custom knowledge provided. Entitled with web application view with customized authentication and message retrieval option.</p>
+        <button href="https://github.com/Sinha532/Chat_Your_PDF" target="_blank">View Project</button>
+      </div>
+      <div class="project-card">
+        <h3>Weather Prediction ML Website</h3>
+        <p>Showcasing ML algorithms on different climatic conditions to predict the Weather, Extended to a web page using Flask application</p>
+        <button href="https://weather-prediction-ml-system-1.onrender.com/" target="_blank">View Project</button>
+      </div>
+      <div class="project-card">
+        <h3>EV Market Segmentation</h3>
+        <p>A Data Analysis on electric vehicle market segmentation on different parts of India, using python frameworks for data visualization and analysis</p>
+        <button href="https://github.com/Sinha532/EV_Market_Segmentation" target="_blank">View Project</button>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+<section id="contact" class="section contact">
+  <h2>Contact Me</h2>
+  <div class="contact-container">
+    <div class="contact-form">
+        <form action="https://formsubmit.co/lokeshsinha746@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <div class="contact-info">
+      <h3>Contact Information</h3>
+      <p>Feel free to reach out if you have any questions or want to connect. I'm always open to discussing new opportunities, collaborations, or anything tech-related!</p>
+      <p><strong>Email:</strong> lokeshsinha746@gmail.com</p>
+      <p><strong>Location:</strong> Ravulapalem, Konaseema district, Andhra Pradesh, India</p>
+      
+      <div class="contact-links">
+        <p>Follow Me On</p>
+        <a href="https://www.linkedin.com/in/lokesh-sinha-n-952706246/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="https://github.com/Sinha532" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.instagram.com/urs_sinha_?igsh=b3k2b3dhanV2YzUy" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Sinha's Portfolio. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
